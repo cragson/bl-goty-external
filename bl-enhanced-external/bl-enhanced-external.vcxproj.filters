@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="osmium">
+      <UniqueIdentifier>{c84d797e-ba87-4fae-9670-9ec6cacebb5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\features">
+      <UniqueIdentifier>{a715405f-033b-4685-ba1b-f24a1b2bdfda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\cheat">
+      <UniqueIdentifier>{49b78cae-1e70-4607-ac39-ec80f3a12d15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Hook\hook.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Image_x64\image_x64.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Image_x86\image_x86.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Overlay\overlay.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Process\process.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Testing\test_cheat.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Testing\test_overlay.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="bl_cheat.cpp">
+      <Filter>Files\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="bl_overlay.cpp">
+      <Filter>Files\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_watermark.cpp">
+      <Filter>Files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_max_level.cpp">
+      <Filter>Files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_click_skill.cpp">
+      <Filter>Files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_max_cash.cpp">
+      <Filter>Files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_enemies_hp.cpp">
+      <Filter>Files\features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="osmium\Cheat\cheat.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Includings\custom_data_types.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Cheat\Feature\feature.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Hook\hook.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Image_x64\image_x64.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Image_x86\image_x86.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Includings\modules.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Overlay\overlay.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Process\process.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Testing\test_cheat.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Testing\test_overlay.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bl_cheat.hpp">
+      <Filter>Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="bl_overlay.hpp">
+      <Filter>Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_watermark.hpp">
+      <Filter>Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_max_level.hpp">
+      <Filter>Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_click_skill.hpp">
+      <Filter>Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_max_cash.hpp">
+      <Filter>Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_enemies_hp.hpp">
+      <Filter>Files\features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
