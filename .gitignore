@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+*.dll
+*.idb
+*.ct
+*.zip
+*.rcnet
+
+x64/
+x86/
+Debug/
+Release/
+.vs/

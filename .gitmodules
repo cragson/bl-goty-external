@@ -1,0 +1,3 @@
+[submodule "bl-enhanced-external/osmium"]
+	path = bl-enhanced-external/osmium
+	url = https://github.com/cragson/osmium
